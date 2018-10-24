@@ -3,7 +3,58 @@ html {
 }
 
 body {
+  background-color: rgb(72, 176, 245);
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  border-bottom: 75px solid black;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(5, 0, 0);
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+.info {
+  font-size: 20px;
+  text-align: center;
+}
+#pic {
+  width: 100%;
+}
+footer {
+  text-align: center;
+}
+footer p {
+  font-size: 28px;
+}
+
+#character-list {
+  display: flex;
+  width: 30%;
+  margin: 0px auto;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.character {
+  text-align: center;
+}
+
+.character img,
+.center-img {
+  display: block;
+  margin: 0px auto;
 }
